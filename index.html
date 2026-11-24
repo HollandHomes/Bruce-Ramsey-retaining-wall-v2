@@ -151,7 +151,7 @@
                     </ul>
                     <div class="border-t border-gray-200 pt-3 flex justify-between items-baseline">
                         <span class="text-xs text-gray-500 uppercase font-medium">All-Inclusive Cost:</span>
-                        <span class="text-2xl font-bold text-slate-900" id="display-price-opt-a">$7,585.00</span>
+                        <span class="text-2xl font-bold text-slate-900" id="display-price-opt-a">$7,985.00</span>
                     </div>
                 </div>
 
@@ -224,8 +224,23 @@
                     <span class="text-sm text-slate-300" id="selected-summary-label">Selected: Layout 2 (65' @ 36.75") • Option A (Concrete Blocks)</span>
                 </div>
                 <div class="text-right">
-                    <div class="text-4xl font-extrabold text-white tracking-tight" id="grand-total">$7,585.00</div>
+                    <div class="text-4xl font-extrabold text-white tracking-tight" id="grand-total">$7,985.00</div>
                     <span class="text-xs text-slate-400 block mt-1">Includes all materials, labor, site prep, and delivery</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- COST BREAKDOWN & CC TOGGLE -->
+        <div class="p-8 border-b border-gray-200">
+            <div class="mb-6 pb-6 border-b border-gray-200 text-sm space-y-3">
+                <h4 class="font-bold text-gray-700 uppercase text-xs tracking-wider mb-2">Cost Center Breakdown</h4>
+                <div class="flex justify-between">
+                    <span class="text-gray-600">Digging, Leveling & Wall Construction Labor:</span>
+                    <span class="font-semibold text-gray-800" id="breakdown-labor">$4,200.00</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-gray-600">All-Inclusive Materials, Gravel, Hardware & Delivery:</span>
+                    <span class="font-semibold text-gray-800" id="breakdown-materials">$3,785.00</span>
                 </div>
             </div>
         </div>
@@ -271,7 +286,7 @@
                 <div class="bg-white p-5 rounded-lg border border-gray-200 shadow-sm">
                     <p class="font-bold text-gray-800 mb-1">1. Deposit (Signing)</p>
                     <p class="text-xs text-gray-500 mb-3">Covers 100% of materials, gravel & delivery.</p>
-                    <p class="text-2xl font-bold text-blue-600" id="deposit-materials">$3,385.00</p>
+                    <p class="text-2xl font-bold text-blue-600" id="deposit-materials">$3,785.00</p>
                 </div>
                 <div class="bg-white p-5 rounded-lg border border-gray-200 shadow-sm">
                     <p class="font-bold text-gray-800 mb-1">2. Project Start</p>
@@ -430,7 +445,7 @@
             exp: { // Layout 2: ~65' @ 36.75" Avg Height + 1 Extra Buried Bottom Layer
                 a: { // Concrete Retaining Wall Block
                     labor: 4200.00,
-                    materials: 3385.00, // Total: $7,585.00
+                    materials: 3785.00, // Total: $7,985.00
                     desc: 'Interlocking concrete retaining wall blocks forming one continuous unified wall extending past the stairs, built on a compacted crushed stone base to 36.75" average visible height plus 1 extra buried bottom layer and glued top capstones.',
                     list: [
                         'Permanent stone block wall; rot, insect, and weather-proof',
